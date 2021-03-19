@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  border: 1px solid black;
+  width: 100vw;
+  min-height: 15vh;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  margin-right: 2rem;
+  padding: 30px;
+}
+
+.current-choices {
+  display: flex;
+  border: 1px solid red;
+  width: 100vw;
+  justify-content: space-around;
+  min-height: 45vh;
+  align-items: center;
+}
+
+.current {
+  border: 1px dashed rgb(25, 95, 226);
+  width: 300px;
+  height: 300px;
+  align-self: flex-end;
+}
+
+.vs {
+  border: 1px dashed rgb(68, 174, 121);
+  width: 90px;
+  height: 60px;
+  align-self: flex-end;
+  margin-bottom: 150px;
+}
+
+.current-score {
+  display: flex;
+  border: 1px dashed rgb(153, 18, 76);
+  width: 100vw;
+  height: 30vh;
+  justify-content: space-around;
+  position: relative;
+}
+
+.score {
+  border: 1px dashed black;
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.player-score {
+  margin-left: 20px;
+}
+
+.computer-score {
+  margin-right: 20px;
+}
+
+.cont-footer {
+  border: 1px dashed rgb(153, 18, 76);
+  width: 100vw;
+  height: 8vh;
+}
